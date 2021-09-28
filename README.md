@@ -1,2 +1,2 @@
 # ecommerce-template
-A simple e-commerce site made with Java, MySQL, HTML, CSS and Javascritp  
+A simple e-commerce desktop site made with HTML, CSS and Javascritp  
