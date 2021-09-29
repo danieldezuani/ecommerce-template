@@ -113,18 +113,29 @@ main {
     position: center;
     transform: scale(1);
     transition: transform .5s;
-}
-
-.bkg1{
-    width: 100%;
-    height: 100%;
-    background-image: url(/ecommerce/img/bkgfoto1.png);
-    background-repeat:no-repeat;        
-    background-position:right bottom;
+    z-index: 1;
 }
   
 .fotos:hover {
     transform: scale(1.05);
+}
+
+#parent{
+    position:relative;
+}
+
+.bkgfoto{
+    position: absolute;
+    top: 0;
+    right: 75px;
+    z-index: 2;
+}
+
+.bkgfoto2{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 2;
 }
 
 .titulos{
