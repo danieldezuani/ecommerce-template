@@ -5,3 +5,9 @@ $('.slider-principal').slick({
     autoplaySpeed: 3000,
     speed: 2500
   });
+
+$('.slider-promos').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1
+});
